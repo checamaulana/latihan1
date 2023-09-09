@@ -8,7 +8,7 @@
         class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li><a @click="filterByCategory(null)">Semua</a></li>
-        <li><a @click="filterByCategory('Makanan')">Makanan</a></li>
+        <li><a @click="filterByCategory('Makanan')">Minuman</a></li>
         <li><a @click="filterByCategory('Elektronik')">Elektronik</a></li>
         <li><a @click="filterByCategory('Minuman')">Minuman</a></li>
       </ul>

@@ -19,6 +19,7 @@
         {{ product.category }}
       </li>
     </ul>
+    <button class="w-5 h-6" @click="goToTask">Lihat Task</button>
   </div>
 </template>
 
@@ -47,6 +48,9 @@ export default {
   methods: {
     filterByCategory(category) {
       this.selectedCategory = category
+    },
+    goToTask() {
+      this.$router.push('/task')
     },
   },
 }
